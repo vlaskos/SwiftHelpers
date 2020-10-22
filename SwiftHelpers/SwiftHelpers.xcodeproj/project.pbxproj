@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADA124825419F8B006714BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA124725419F8B006714BA /* AppDelegate.swift */; };
+		FADA124A25419F8B006714BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA124925419F8B006714BA /* SceneDelegate.swift */; };
+		FADA124C25419F8B006714BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA124B25419F8B006714BA /* ViewController.swift */; };
+		FADA124F25419F8B006714BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA124D25419F8B006714BA /* Main.storyboard */; };
+		FADA125125419F90006714BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA125025419F90006714BA /* Assets.xcassets */; };
+		FADA125425419F90006714BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA125225419F90006714BA /* LaunchScreen.storyboard */; };
+		FADA125E25419FE6006714BA /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA125D25419FE6006714BA /* Logger.swift */; };
+		FADA12602541A00D006714BA /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA125F2541A00D006714BA /* UILabel.swift */; };
+		FADA12622541A043006714BA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12612541A043006714BA /* String.swift */; };
+		FADA12642541A06D006714BA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12632541A06D006714BA /* Date.swift */; };
+		FADA12662541A0B5006714BA /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12652541A0B5006714BA /* NSLayoutConstraint.swift */; };
+		FADA12682541A0D5006714BA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12672541A0D5006714BA /* UIColor.swift */; };
+		FADA126A2541A107006714BA /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12692541A107006714BA /* Formatter.swift */; };
+		FADA126C2541A139006714BA /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA126B2541A139006714BA /* Calendar.swift */; };
+		FADA12712541A17F006714BA /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12702541A17F006714BA /* SelectedButton.swift */; };
+		FADA12732541A18C006714BA /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12722541A18C006714BA /* ToggleButton.swift */; };
+		FADA12752541A1B2006714BA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12742541A1B2006714BA /* GradientView.swift */; };
+		FADA12772541A1CA006714BA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12762541A1CA006714BA /* ShadowView.swift */; };
+		FADA12792541A1EE006714BA /* GradientSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12782541A1EE006714BA /* GradientSwitch.swift */; };
+		FADA127B2541A231006714BA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA127A2541A231006714BA /* UIView.swift */; };
+		FADA127D2541A296006714BA /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA127C2541A296006714BA /* GradientSlider.swift */; };
+		FADA127F2541A2C7006714BA /* GradientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA127E2541A2C7006714BA /* GradientProgressView.swift */; };
+		FADA12812541A2FC006714BA /* KeyboardNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12802541A2FC006714BA /* KeyboardNotifications.swift */; };
+		FADA12832541A364006714BA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12822541A363006714BA /* Device.swift */; };
+		FADA12852541A3A0006714BA /* PasscodeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12842541A3A0006714BA /* PasscodeUtil.swift */; };
+		FADA12882541A412006714BA /* AES256Crypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12872541A412006714BA /* AES256Crypter.swift */; };
+		FADA128A2541A460006714BA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12892541A460006714BA /* UITableView.swift */; };
+		FADA128C2541A479006714BA /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA128B2541A479006714BA /* UIScrollView.swift */; };
+		FADA128E2541A492006714BA /* UIAllertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA128D2541A492006714BA /* UIAllertController.swift */; };
+		FADA12902541A4CF006714BA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA128F2541A4CF006714BA /* UIViewController.swift */; };
+		FADA12922541A4E8006714BA /* UIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12912541A4E8006714BA /* UIStoryBoard.swift */; };
+		FADA12952541A561006714BA /* UITableView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12942541A561006714BA /* UITableView+DataSource.swift */; };
+		FADA12972541A590006714BA /* UITableView+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12962541A590006714BA /* UITableView+Reuse.swift */; };
+		FADA12992541A671006714BA /* hmac-sha1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA12982541A671006714BA /* hmac-sha1.swift */; };
+		FADA129B2541A744006714BA /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA129A2541A744006714BA /* UINavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FADA124425419F8B006714BA /* SwiftHelpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHelpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA124725419F8B006714BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADA124925419F8B006714BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADA124B25419F8B006714BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADA124E25419F8B006714BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADA125025419F90006714BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADA125325419F90006714BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADA125525419F90006714BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA125D25419FE6006714BA /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FADA125F2541A00D006714BA /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		FADA12612541A043006714BA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FADA12632541A06D006714BA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FADA12652541A0B5006714BA /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		FADA12672541A0D5006714BA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FADA12692541A107006714BA /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		FADA126B2541A139006714BA /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		FADA12702541A17F006714BA /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		FADA12722541A18C006714BA /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		FADA12742541A1B2006714BA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FADA12762541A1CA006714BA /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		FADA12782541A1EE006714BA /* GradientSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSwitch.swift; sourceTree = "<group>"; };
+		FADA127A2541A231006714BA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FADA127C2541A296006714BA /* GradientSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		FADA127E2541A2C7006714BA /* GradientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressView.swift; sourceTree = "<group>"; };
+		FADA12802541A2FC006714BA /* KeyboardNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotifications.swift; sourceTree = "<group>"; };
+		FADA12822541A363006714BA /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		FADA12842541A3A0006714BA /* PasscodeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeUtil.swift; sourceTree = "<group>"; };
+		FADA12872541A412006714BA /* AES256Crypter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256Crypter.swift; sourceTree = "<group>"; };
+		FADA12892541A460006714BA /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		FADA128B2541A479006714BA /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		FADA128D2541A492006714BA /* UIAllertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAllertController.swift; sourceTree = "<group>"; };
+		FADA128F2541A4CF006714BA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FADA12912541A4E8006714BA /* UIStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoard.swift; sourceTree = "<group>"; };
+		FADA12942541A561006714BA /* UITableView+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+DataSource.swift"; sourceTree = "<group>"; };
+		FADA12962541A590006714BA /* UITableView+Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuse.swift"; sourceTree = "<group>"; };
+		FADA12982541A671006714BA /* hmac-sha1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hmac-sha1.swift"; sourceTree = "<group>"; };
+		FADA129A2541A744006714BA /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADA124125419F8B006714BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADA123B25419F8B006714BA = {
+			isa = PBXGroup;
+			children = (
+				FADA124625419F8B006714BA /* SwiftHelpers */,
+				FADA124525419F8B006714BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADA124525419F8B006714BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADA124425419F8B006714BA /* SwiftHelpers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADA124625419F8B006714BA /* SwiftHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				FADA125C25419FA1006714BA /* Application */,
+				FADA125B25419F9B006714BA /* Helpers */,
+			);
+			path = SwiftHelpers;
+			sourceTree = "<group>";
+		};
+		FADA125B25419F9B006714BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FADA12932541A54E006714BA /* Generics */,
+				FADA12862541A40A006714BA /* Crypto */,
+				FADA126F2541A16A006714BA /* Other */,
+				FADA126E2541A162006714BA /* UIElements */,
+				FADA126D2541A14B006714BA /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FADA125C25419FA1006714BA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FADA124725419F8B006714BA /* AppDelegate.swift */,
+				FADA124925419F8B006714BA /* SceneDelegate.swift */,
+				FADA124B25419F8B006714BA /* ViewController.swift */,
+				FADA124D25419F8B006714BA /* Main.storyboard */,
+				FADA125025419F90006714BA /* Assets.xcassets */,
+				FADA125225419F90006714BA /* LaunchScreen.storyboard */,
+				FADA125525419F90006714BA /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FADA126D2541A14B006714BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FADA12822541A363006714BA /* Device.swift */,
+				FADA125F2541A00D006714BA /* UILabel.swift */,
+				FADA12612541A043006714BA /* String.swift */,
+				FADA129A2541A744006714BA /* UINavigationController.swift */,
+				FADA12632541A06D006714BA /* Date.swift */,
+				FADA12652541A0B5006714BA /* NSLayoutConstraint.swift */,
+				FADA12672541A0D5006714BA /* UIColor.swift */,
+				FADA12692541A107006714BA /* Formatter.swift */,
+				FADA126B2541A139006714BA /* Calendar.swift */,
+				FADA127A2541A231006714BA /* UIView.swift */,
+				FADA12892541A460006714BA /* UITableView.swift */,
+				FADA128B2541A479006714BA /* UIScrollView.swift */,
+				FADA128D2541A492006714BA /* UIAllertController.swift */,
+				FADA128F2541A4CF006714BA /* UIViewController.swift */,
+				FADA12912541A4E8006714BA /* UIStoryBoard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FADA126E2541A162006714BA /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FADA12702541A17F006714BA /* SelectedButton.swift */,
+				FADA12722541A18C006714BA /* ToggleButton.swift */,
+				FADA12742541A1B2006714BA /* GradientView.swift */,
+				FADA12762541A1CA006714BA /* ShadowView.swift */,
+				FADA12782541A1EE006714BA /* GradientSwitch.swift */,
+				FADA127C2541A296006714BA /* GradientSlider.swift */,
+				FADA127E2541A2C7006714BA /* GradientProgressView.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		FADA126F2541A16A006714BA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FADA125D25419FE6006714BA /* Logger.swift */,
+				FADA12802541A2FC006714BA /* KeyboardNotifications.swift */,
+				FADA12842541A3A0006714BA /* PasscodeUtil.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FADA12862541A40A006714BA /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				FADA12872541A412006714BA /* AES256Crypter.swift */,
+				FADA12982541A671006714BA /* hmac-sha1.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		FADA12932541A54E006714BA /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				FADA12942541A561006714BA /* UITableView+DataSource.swift */,
+				FADA12962541A590006714BA /* UITableView+Reuse.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADA124325419F8B006714BA /* SwiftHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA125825419F90006714BA /* Build configuration list for PBXNativeTarget "SwiftHelpers" */;
+			buildPhases = (
+				FADA124025419F8B006714BA /* Sources */,
+				FADA124125419F8B006714BA /* Frameworks */,
+				FADA124225419F8B006714BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHelpers;
+			productName = SwiftHelpers;
+			productReference = FADA124425419F8B006714BA /* SwiftHelpers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADA123C25419F8B006714BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = com.chisw;
+				TargetAttributes = {
+					FADA124325419F8B006714BA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FADA123F25419F8B006714BA /* Build configuration list for PBXProject "SwiftHelpers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADA123B25419F8B006714BA;
+			productRefGroup = FADA124525419F8B006714BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADA124325419F8B006714BA /* SwiftHelpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADA124225419F8B006714BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA125425419F90006714BA /* LaunchScreen.storyboard in Resources */,
+				FADA125125419F90006714BA /* Assets.xcassets in Resources */,
+				FADA124F25419F8B006714BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADA124025419F8B006714BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA12922541A4E8006714BA /* UIStoryBoard.swift in Sources */,
+				FADA12882541A412006714BA /* AES256Crypter.swift in Sources */,
+				FADA126C2541A139006714BA /* Calendar.swift in Sources */,
+				FADA12902541A4CF006714BA /* UIViewController.swift in Sources */,
+				FADA12622541A043006714BA /* String.swift in Sources */,
+				FADA12602541A00D006714BA /* UILabel.swift in Sources */,
+				FADA12732541A18C006714BA /* ToggleButton.swift in Sources */,
+				FADA128A2541A460006714BA /* UITableView.swift in Sources */,
+				FADA12752541A1B2006714BA /* GradientView.swift in Sources */,
+				FADA129B2541A744006714BA /* UINavigationController.swift in Sources */,
+				FADA128E2541A492006714BA /* UIAllertController.swift in Sources */,
+				FADA126A2541A107006714BA /* Formatter.swift in Sources */,
+				FADA12712541A17F006714BA /* SelectedButton.swift in Sources */,
+				FADA12642541A06D006714BA /* Date.swift in Sources */,
+				FADA128C2541A479006714BA /* UIScrollView.swift in Sources */,
+				FADA12972541A590006714BA /* UITableView+Reuse.swift in Sources */,
+				FADA124C25419F8B006714BA /* ViewController.swift in Sources */,
+				FADA12812541A2FC006714BA /* KeyboardNotifications.swift in Sources */,
+				FADA12772541A1CA006714BA /* ShadowView.swift in Sources */,
+				FADA12852541A3A0006714BA /* PasscodeUtil.swift in Sources */,
+				FADA127D2541A296006714BA /* GradientSlider.swift in Sources */,
+				FADA12832541A364006714BA /* Device.swift in Sources */,
+				FADA12682541A0D5006714BA /* UIColor.swift in Sources */,
+				FADA124825419F8B006714BA /* AppDelegate.swift in Sources */,
+				FADA12952541A561006714BA /* UITableView+DataSource.swift in Sources */,
+				FADA127F2541A2C7006714BA /* GradientProgressView.swift in Sources */,
+				FADA12992541A671006714BA /* hmac-sha1.swift in Sources */,
+				FADA124A25419F8B006714BA /* SceneDelegate.swift in Sources */,
+				FADA125E25419FE6006714BA /* Logger.swift in Sources */,
+				FADA12662541A0B5006714BA /* NSLayoutConstraint.swift in Sources */,
+				FADA127B2541A231006714BA /* UIView.swift in Sources */,
+				FADA12792541A1EE006714BA /* GradientSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADA124D25419F8B006714BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADA124E25419F8B006714BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADA125225419F90006714BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADA125325419F90006714BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADA125625419F90006714BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADA125725419F90006714BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADA125925419F90006714BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3QAWRZFYR;
+				INFOPLIST_FILE = SwiftHelpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chisw.SwiftHelpers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADA125A25419F90006714BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3QAWRZFYR;
+				INFOPLIST_FILE = SwiftHelpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chisw.SwiftHelpers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADA123F25419F8B006714BA /* Build configuration list for PBXProject "SwiftHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA125625419F90006714BA /* Debug */,
+				FADA125725419F90006714BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA125825419F90006714BA /* Build configuration list for PBXNativeTarget "SwiftHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA125925419F90006714BA /* Debug */,
+				FADA125A25419F90006714BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADA123C25419F8B006714BA /* Project object */;
+}
